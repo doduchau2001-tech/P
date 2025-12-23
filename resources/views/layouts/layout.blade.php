@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     @yield('style')
-    @include('layouts.alert')
 </head>
 
 <body>
+    @include('layouts.alert')
     <!-- Main Wrapper -->
     <div class="main-wrapper">
         @yield('content_layout')
